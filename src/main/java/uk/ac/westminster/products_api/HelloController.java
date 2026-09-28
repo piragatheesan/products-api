@@ -33,4 +33,9 @@ public class HelloController {
     public String goodbye() {
         return "Goodbye from Spring Boots!";
     }
+    @GetMapping ("/info")
+    public String info() {
+        return "This is an Spring Boot project done by PK";
+    }
+
 }
