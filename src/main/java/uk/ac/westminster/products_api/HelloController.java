@@ -22,19 +22,12 @@ public class HelloController {
     public String hello(){
         return "Hello from Spring Boots!";
     }
-
     @GetMapping("/status")
     public String status(){
         return "API running -" + LocalDate.now().toString();
     }
-
     @GetMapping ("/goodbye")
     public String goodbye() {
         return "Goodbye from Spring Boots!";
     }
-    @GetMapping ("/info")
-    public String info() {
-        return "This is an Spring Boot project done by PK";
-    }
-
 }

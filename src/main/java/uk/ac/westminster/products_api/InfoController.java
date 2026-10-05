@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class InfoController {
 
-    @GetMapping ("/info")
+    @GetMapping("/info")
     public String info() {
         return "This is the info endpoint";
     }
