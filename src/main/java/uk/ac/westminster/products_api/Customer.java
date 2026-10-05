@@ -1,14 +1,13 @@
 package uk.ac.westminster.products_api;
 
-public class Customer {
 
+public class Customer {
     private Long id;
     private String name;
     private String email;
     private Address address;
 
-    public  Customer() {
-    }
+    public Customer() {}
 
     public Customer(Long id, String name, String email, Address address) {
         this.id = id;
@@ -32,4 +31,5 @@ public class Customer {
     public Address getAddress() {
         return address;
     }
+
 }
